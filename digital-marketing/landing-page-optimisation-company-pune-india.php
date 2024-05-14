@@ -46,8 +46,8 @@ include('../inc/header.php');
           <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
               <div class="sr-feature">
-                <img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon" />
-                <h6>Compelling Headline: </h6>
+                <img src="<?= $base_url; ?>assets/images/service/headline.webp" alt="service icon" />
+                <h6>Compelling Headline </h6>
                 <p>
                 A concise and attention-grabbing headline that communicates the value proposition and benefits of the offer or product
                 </p>
@@ -55,8 +55,8 @@ include('../inc/header.php');
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
               <div class="sr-feature">
-                <img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon" />
-                <h6>Visual Elements:</h6>
+                <img src="<?= $base_url; ?>assets/images/service/visualization.webp" alt="service icon" />
+                <h6>Visual Elements</h6>
                 <p>
                 Engaging visuals, such as images, videos, or infographics, that support the message and help capture visitors' attention.
                 </p>
@@ -64,8 +64,8 @@ include('../inc/header.php');
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
               <div class="sr-feature">
-                <img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon" />
-                <h6>Form Optimization:</h6>
+                <img src="<?= $base_url; ?>assets/images/service/form-optimization.webp" alt="service icon" />
+                <h6>Form Optimization</h6>
                 <p>
                 If the landing page includes a form, optimize it by reducing the number of fields, using clear labels, and providing inline validation to streamline the submission process.
                 </p>
@@ -73,8 +73,8 @@ include('../inc/header.php');
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
               <div class="sr-feature">
-                <img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon" />
-                <h6>Responsive Design: </h6>
+                <img src="<?= $base_url; ?>assets/images/service/responsive-design.webp" alt="service icon" />
+                <h6>Responsive Design </h6>
                 <p>
                 Ensuring the landing page is optimized for mobile devices and displays correctly across different screen sizes and resolutions.
                 </p>

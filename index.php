@@ -235,7 +235,7 @@ Our dedication to delivering exceptional results and ensuring customer happiness
 <!-- end contact form section  -->
 
 <!-- start team section -->
-<section class="team-section section-bg-clr section-padding">
+<!-- <section class="team-section section-bg-clr section-padding">
 	<div class="container">
 		<div class="section-heading">
 			<h2>Our Best Team</h2>
@@ -276,9 +276,9 @@ Our dedication to delivering exceptional results and ensuring customer happiness
 						</ul>
 					</div>
 				</div>
-				<!-- /.team-item -->
+			
 			</div>
-			<!-- /.col-md-4 -->
+			
 
 			<div class="col-lg-4 col-sm-6">
 				<div class="team-item">
@@ -312,9 +312,9 @@ Our dedication to delivering exceptional results and ensuring customer happiness
 						</ul>
 					</div>
 				</div>
-				<!-- /.team-item -->
+			
 			</div>
-			<!-- /.col-md-4 -->
+			
 
 			<div class="col-lg-4 col-sm-6">
 				<div class="team-item">
@@ -348,14 +348,14 @@ Our dedication to delivering exceptional results and ensuring customer happiness
 						</ul>
 					</div>
 				</div>
-				<!-- /.team-item -->
+			
 			</div>
-			<!-- /.col-md-4 -->
+			
 		</div>
-		<!-- /.row -->
+
 	</div>
-	<!-- /.container -->
-</section>
+	
+</section> -->
 <!-- end team section -->
 
 <!-- start case studies section -->

@@ -40,7 +40,7 @@ include('../inc/header.php');
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
 								<img src="<?= $base_url; ?>assets/images/service/keyword-searching.webp" alt="service icon">
-								<h6>Keyword Research:</h6>
+								<h6>Keyword Research</h6>
 								<p>Optimizing individual web pages to rank higher and earn more relevant traffic in search engines. This includes optimizing meta tags (title tags, meta descriptions), headings, URLs, and content for target keywords.</p>
 							</div>
 						</div>

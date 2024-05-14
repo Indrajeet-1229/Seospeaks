@@ -40,29 +40,29 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/keywords-targeting.webp" alt="service icon">
 								<h6>Keyword Targeting</h6>
 								<p>Selecting relevant keywords and phrases that your target audience is likely to use when searching for products or services. Keywords trigger your ads to appear in search engine results pages (SERPs).</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Ad Creation:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/ads-creation.webp" alt="service icon">
+								<h6>Ads Creation</h6>
 								<p>Creating compelling and relevant ads that capture the attention of your target audience. This involves writing persuasive ad copy, including relevant keywords, and incorporating eye-catching visuals where applicable.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
-								<h6>Ad Extensions:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/ads-extension.webp" alt="service icon">
+								<h6>Ads Extensions</h6>
 								<p>Enhancing your ads with additional information and links to improve visibility and engagement. Ad extensions can include site links, callouts, structured snippets, call extensions, location extensions, and more.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
-								<h6>Ad Placement:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/ads-placement.webp" alt="service icon">
+								<h6>Ads Placement</h6>
 								<p>Choosing where your ads will appear, whether it's in search engine results (search network), on relevant websites and apps (display network), or on social media platforms (social PPC).</p>
 							</div>
 						</div>

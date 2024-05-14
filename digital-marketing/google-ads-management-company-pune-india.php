@@ -39,28 +39,28 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/audience-targeting.webp" alt="service icon">
 								<h6>Audience Targeting:</h6>
 								<p>Utilize audience targeting options such as demographics, interests, and remarketing to reach specific groups of users who are more likely to convert.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/ad-copy.webp" alt="service icon">
 								<h6>Ad Copy Optimization:</h6>
 								<p> Write compelling ad copy that is relevant to the search query and includes a clear call-to-action (CTA) to encourage clicks.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/ads-scheduling.webp" alt="service icon">
 								<h6>Ad Scheduling:</h6>
 								<p>TSchedule ads to run during peak times when your target audience is most active and likely to engage</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/device-targeting.webp" alt="service icon">
 								<h6>Device Targeting: </h6>
 								<p>Adjust bids and ad copy based on the device (desktop, mobile, tablet) that users are using to improve ad performance.</p>
 							</div>

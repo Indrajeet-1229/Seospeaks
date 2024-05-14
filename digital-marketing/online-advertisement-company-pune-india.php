@@ -41,29 +41,29 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Targeting Options:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/targeting-option.webp" alt="service icon">
+								<h6>Targeting Options</h6>
 								<p>Online advertising platforms offer advanced targeting options to reach specific audiences based on demographics, interests, behaviors, location, device type, and more. This allows advertisers to tailor their ads to the most relevant audience segments.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Ad Formats:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/ad-formates.webp" alt="service icon">
+								<h6>Ad Formats</h6>
 								<p>Online ads come in various formats to suit different objectives and platforms. Common ad formats include display ads (banners, images, videos), search ads (text ads displayed in search engine results), native ads (blended seamlessly into content), social media ads (sponsored posts, carousel ads, stories), video ads (pre-roll, mid-roll, post-roll), and more.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
-								<h6>Ad Creatives:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/ad-creatives.webp" alt="service icon">
+								<h6>Ad Creatives</h6>
 								<p>Compelling ad creatives are essential for capturing audience attention and driving engagement. Ad creatives include ad copy, visuals (images, videos, graphics), calls-to-action (CTAs), and ad extensions (additional information and links).</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
-								<h6>Budget Control: </h6>
+								<img src="<?= $base_url; ?>assets/images/service/budget-control.webp" alt="service icon">
+								<h6>Budget Control </h6>
 								<p>Advertisers have control over their advertising budget, allowing them to set daily or campaign-level budgets and adjust spending based on performance, goals, and resource availability.</p>
 							</div>
 						</div>

@@ -78,8 +78,8 @@
 									<img src="../assets/images/testimonial/01.png" alt="client" />
 								</div>
 								<div class="testimonial-author">
-									<h6>Samir Holkar</h6>
-									<p>ui/ux designer</p>
+									<h6>Ojas Wadake</h6>
+									<p> <a target="_blank" href="https://www.niravbiosolutions.com">Nirav Biosolution</a></p>
 								</div>
 								<img src="../assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
 							</div>
@@ -95,8 +95,8 @@
 									<img src="../assets/images/testimonial/02.png" alt="client" />
 								</div>
 								<div class="testimonial-author">
-									<h6>Vinayak Sutar</h6>
-									<p>Contractor</p>
+									<h6>Akriti Bhatt </h6>
+									<p><a target="_blank" href="https://aquachill.co.in/">Aquachill</a></p>
 								</div>
 								<img src="../assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
 							</div>
@@ -112,8 +112,8 @@
 									<img src="../assets/images/testimonial/01.png" alt="client" />
 								</div>
 								<div class="testimonial-author">
-									<h6>kaish Khan</h6>
-									<p>Businessman</p>
+									<h6>Rajesh Gugle</h6>
+									<p><a target="_blank" href="https://jairajgroup.in/">Jairaj Group</a></p>
 								</div>
 								<img src="../assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
 							</div>

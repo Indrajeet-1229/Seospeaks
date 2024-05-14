@@ -39,28 +39,28 @@ YouTube SEO (Search Engine Optimization) involves optimizing your YouTube videos
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Keyword Research:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/keyword-searching.webp" alt="service icon">
+								<h6>Keyword Research</h6>
 								<p>OIdentify relevant keywords and phrases that your target audience is searching for on YouTube. Use tools like YouTube autocomplete, Google Trends, and keyword research tools to find popular and relevant keywords.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Optimized Title:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/optimized-title.webp" alt="service icon">
+								<h6>Optimized Title</h6>
 								<p> Create compelling and keyword-rich titles that accurately describe your video content and entice viewers to click. Include your target keyword at the beginning of the title if possible.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
-								<h6>Engaging Thumbnails: </h6>
+								<img src="<?= $base_url; ?>assets/images/service/engaging-thumbnil.webp" alt="service icon">
+								<h6>Engaging Thumbnails </h6>
 								<p>Design eye-catching thumbnails that accurately represent your video content and encourage viewers to click. Use high-quality images, contrasting colors, and text overlays to make your thumbnails stand out.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/video-description.webp" alt="service icon">
 								<h6>Video Description</h6>
 								<p>Write detailed and informative video descriptions that include your target keywords naturally. Use the first few lines of your description to summarize the video content and include relevant links, timestamps, and CTAs.</p>
 							</div>

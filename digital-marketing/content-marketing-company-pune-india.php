@@ -40,29 +40,29 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Audience Research:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/audience-research.webp" alt="service icon">
+								<h6>Audience Research</h6>
 								<p>Understanding the needs, preferences, pain points, and behaviors of the target audience to create content that resonates with them.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Content Strategy:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/content-strategy.webp" alt="service icon">
+								<h6>Content Strategy</h6>
 								<p>Developing a comprehensive plan that outlines goals, target audience, content topics, formats, distribution channels, and performance metrics.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/content-distribution.webp" alt="service icon">
 								<h6>Content Distribution</h6>
 								<p>Sharing content across various channels to reach and engage the target audience. Distribution channels can include website/blog, social media platforms, email newsletters, industry forums, guest blogging, and content syndication.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
-								<h6>Content Optimization:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/content-optimization.webp" alt="service icon">
+								<h6>Content Optimization</h6>
 								<p>Optimizing content for search engines (SEO) to improve its visibility and ranking in search engine results pages (SERPs). This involves keyword research, on-page optimization, and internal linking</p>
 							</div>
 						</div>

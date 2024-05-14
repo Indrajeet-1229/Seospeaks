@@ -41,29 +41,29 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Certifications:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/certifications.webp" alt="service icon">
+								<h6>Certifications</h6>
 								<p>Google Partners have access to a range of certification exams, including Google Ads certifications for various advertising specialties such as Search, Display, Video, Shopping, and Measurement. These certifications demonstrate expertise and proficiency in managing Google Ads campaigns.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Training Resources: </h6>
+								<img src="<?= $base_url; ?>assets/images/service/traning-resources.webp" alt="service icon">
+								<h6>Training Resources </h6>
 								<p>Google Partners have access to a wealth of training materials, resources, and best practices to help them stay updated on the latest trends, tools, and strategies in digital marketing and advertising.
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
-								<h6>Support and Insights:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/support-insigts.webp" alt="service icon">
+								<h6>Support and Insights</h6>
 								<p>Google Partners receive dedicated support from Google's team of experts, including access to account strategists who provide personalized guidance and recommendations to help optimize Google Ads campaigns.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
-								<h6>Partner Badge:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/partner-budget.webp" alt="service icon">
+								<h6>Partner Badge</h6>
 								<p>Google Partners can earn and display the Google Partner badge on their website and marketing materials, signaling to clients and prospects that they have met Google's requirements for certification, performance, and customer satisfaction.</p>
 							</div>
 						</div>

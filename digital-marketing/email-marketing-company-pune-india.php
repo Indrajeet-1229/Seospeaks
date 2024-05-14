@@ -42,29 +42,29 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Subscriber List Management: </h6>
+								<img src="<?= $base_url; ?>assets/images/service/list-management.webp" alt="service icon">
+								<h6>Subscriber List Management </h6>
 								<p> Building and managing an email list of subscribers who have opted in to receive emails from your business. This involves capturing email addresses through sign-up forms on your website, social media, events, and other channels.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Segmentation: </h6>
+								<img src="<?= $base_url; ?>assets/images/service/segmentation.webp" alt="service icon">
+								<h6>Segmentation </h6>
 								<p> Dividing your email list into segments based on demographics, interests, purchase history, engagement level, and other criteria. Segmenting your list allows you to send more targeted and personalized emails to specific groups of subscribers.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
-								<h6>Personalization:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/personalized.webp" alt="service icon">
+								<h6>Personalization</h6>
 								<p> Tailoring email content to the individual recipient based on their preferences, behavior, and past interactions with your brand. Personalization can include using the recipient's name, recommending relevant products, and sending targeted offers.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
-								<h6>Email Design:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/email-design.webp" alt="service icon">
+								<h6>Email Design</h6>
 								<p>Creating visually appealing and mobile-responsive email templates that reflect your brand identity and encourage engagement. Email design includes layout, color scheme, typography, images, and branding elements.</p>
 							</div>
 						</div>

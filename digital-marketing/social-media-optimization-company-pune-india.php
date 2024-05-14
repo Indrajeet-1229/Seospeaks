@@ -39,15 +39,15 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Profile Optimization: </h6>
+								<img src="<?= $base_url; ?>assets/images/service/profile-optimization.webp" alt="service icon">
+								<h6>Profile Optimization</h6>
 								<p>Optimizing social media profiles on platforms like Facebook, Twitter, Instagram, LinkedIn, and Pinterest with relevant keywords, engaging visuals, and accurate business information.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Consistent Branding:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/consistency.webp" alt="service icon">
+								<h6>Consistent Branding</h6>
 								<p> Maintaining consistent branding across all social media profiles, including profile pictures, cover photos, bios, and messaging, to reinforce brand identity and recognition.
 
 								</p>
@@ -55,15 +55,15 @@ include('../inc/header.php');
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
-								<h6>Visual Content Optimization:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/visual-communication.webp" alt="service icon">
+								<h6>Visual Content Optimization</h6>
 								<p> Utilizing eye-catching visuals, including images, videos, and graphics, to enhance the appeal and shareability of social media posts</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
-								<h6>Social Listening:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/social-listening.webp" alt="service icon">
+								<h6>Social Listening</h6>
 								<p>Monitoring social media channels for mentions of your brand, competitors, industry trends, and relevant keywords to gain insights, address customer concerns, and identify opportunities for engagement.</p>
 							</div>
 						</div>

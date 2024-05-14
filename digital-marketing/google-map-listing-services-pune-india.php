@@ -30,7 +30,7 @@ include('../inc/header.php');
 			</div>
 			<div class="col-lg-8 col-12">
 				<div class="service-single-item">
-					<img src="<?= $base_url; ?>assets/images/service/large.jpg" alt="service image">
+					<img src="<?= $base_url; ?>assets/images/street-map.png" alt="service image">
 					<h4>Google Map Business Listing in Pune, India</h4>
 					<p>Google Map listing is a great way of increasing your ROI and boost quality traffic to your site. An Online business profile can help you to gain online credibility, get listed in the local search, and attract potential customers to drive your overall revenue.</p>
 					<p>At Seospeaks, we're committed to helping businesses thrive in the digital landscape. As a leading Digital Marketing Company in Pune, India, our expert team of Digital Marketers is dedicated to helping you increase your sales and convert your visitors into leads.</p>
