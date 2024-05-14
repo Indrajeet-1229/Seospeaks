@@ -30,7 +30,7 @@ include('../inc/header.php');
 			</div>
 			<div class="col-lg-8 col-12">
 				<div class="service-single-item">
-					<img src="<?= $base_url; ?>assets/images/street-map.png" alt="service image">
+					<img src="<?= $base_url; ?>assets/images/service/large.jpg" alt="service image">
 					<h4>Google Map Business Listing in Pune, India</h4>
 					<p>Google Map listing is a great way of increasing your ROI and boost quality traffic to your site. An Online business profile can help you to gain online credibility, get listed in the local search, and attract potential customers to drive your overall revenue.</p>
 					<p>At Seospeaks, we're committed to helping businesses thrive in the digital landscape. As a leading Digital Marketing Company in Pune, India, our expert team of Digital Marketers is dedicated to helping you increase your sales and convert your visitors into leads.</p>
@@ -41,29 +41,29 @@ Google Maps listings offer a variety of features and benefits for businesses aim
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Business Information:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/google-map-listing.webp" alt="service icon">
+								<h6>Business Information</h6>
 								<p>Google Maps listings display essential business information, including the business name, address, phone number (NAP), website URL, hours of operation, and directions.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Map Placement:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/map-placement.webp" alt="service icon">
+								<h6>Map Placement</h6>
 								<p> Listings appear on Google Maps, making it easy for users to find your business location and get directions from their current location.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
-								<h6>Customer Reviews and Ratings:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/customer-reviews-rating.webp" alt="service icon">
+								<h6>Customer Reviews and Ratings</h6>
 								<p> Customers can leave reviews and ratings for your business directly on your Google Maps listing, providing valuable social proof and influencing potential customers' decisions.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
-								<h6>Photos and Videos:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/photos-vidios.webp" alt="service icon">
+								<h6>Photos and Videos</h6>
 								<p>Businesses can showcase their products, services, and premises by adding photos and videos to their Google Maps listing. Visual content helps attract attention and build trust with potential customers.</p>
 							</div>
 						</div>

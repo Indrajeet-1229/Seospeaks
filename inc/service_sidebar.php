@@ -3,27 +3,27 @@
 		<h5>Services</h5>
 		<ul class="all-serivce">
 			<li>
-				<a href="<?= $base_url; ?>digital-marketing/search-engine-optimization-company-pune-india.php"><img src="../assets/images/service/mini1.png" alt="service icon" />
+				<a href="<?= $base_url; ?>digital-marketing/digital-marketing-company-pune-india.php"><img src="../assets/images/service/digital.webp" alt="service icon" />
+					Digital Marketing</a>
+			</li>
+			<li>
+				<a href="<?= $base_url; ?>digital-marketing/search-engine-optimization-company-pune-india.php"><img src="../assets/images/service/seo.webp" alt="service icon" />
 					Search Engine Optimization</a>
 			</li>
 			<li>
-				<a href="<?= $base_url; ?>digital-marketing/social-media-marketing-company-pune-india.php"><img src="../assets/images/service/mini2.png" alt="service icon" />
+				<a href="<?= $base_url; ?>digital-marketing/social-media-marketing-company-pune-india.php"><img src="../assets/images/service/social-media.webp" alt="service icon" />
 					SOCIAL MEDIA MARKETING</a>
 			</li>
 			<li>
-				<a href="<?= $base_url; ?>digital-marketing/google-ads-management-company-pune-india.php"><img src="../assets/images/service/mini6.png" alt="service icon" />
+				<a href="<?= $base_url; ?>digital-marketing/google-ads-management-company-pune-india.php"><img src="../assets/images/service/google-adds.webp" alt="service icon" />
 					Google Ads Management</a>
 			</li>
 
 			<li>
-				<a href="<?= $base_url; ?>digital-marketing/email-marketing-company-pune-india.php"><img src="../assets/images/service/mini5.png" alt="service icon" />
+				<a href="<?= $base_url; ?>digital-marketing/email-marketing-company-pune-india.php"><img src="../assets/images/service/email.webp" alt="service icon" />
 					Best Email Marketing</a>
 			</li>
 
-			<li>
-				<a href="<?= $base_url; ?>digital-marketing/mobile-seo-company-pune-india.php"><img src="../assets/images/service/mini4.png" alt="service icon" />
-					Mobile Seo </a>
-			</li>
 
 
 

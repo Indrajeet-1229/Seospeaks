@@ -40,24 +40,24 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Google My Business (GMB) Optimization:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/gmb.webp" alt="service icon">
+								<h6>Google My Business (GMB) Optimization</h6>
 								<p>Claiming and verifying your Google My Business listing and ensuring that all information (business name, address, phone number, website URL, business hours, categories, etc.) is accurate and up-to-date.
 								</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
-								<h6>Local Keyword Research:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/keyword-searching.webp" alt="service icon">
+								<h6>Local Keyword Research</h6>
 								<p> Identifying and targeting relevant local keywords that potential customers are likely to use when searching for products or services in your area.</p>
 							</div>
 						</div>
 						
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
-								<h6>On-Page Optimization:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/on-page-seo.webp" alt="service icon">
+								<h6>On-Page Optimization</h6>
 								<p>Optimizing website content, meta tags (title tags, meta descriptions), headings, and URLs with local keywords to improve relevance for local searches.
 
 									</p>
@@ -65,8 +65,8 @@ include('../inc/header.php');
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
-								<h6>Local Link Building: </h6>
+								<img src="<?= $base_url; ?>assets/images/service/local-link-building.webp" alt="service icon">
+								<h6>Local Link Building </h6>
 								<p>Acquiring high-quality backlinks from local websites, community organizations, and local news outlets. Local backlinks help establish relevance and authority for local search queries.
 
 									</p>

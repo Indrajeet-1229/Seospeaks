@@ -451,92 +451,55 @@ Our dedication to delivering exceptional results and ensuring customer happiness
 		<div class="section-wrapper">
 			<!-- Swiper -->
 			<div class="swiper-container testimonial-container">
-				<div class="swiper-wrapper">
+			<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="testimonial-item">
 							<p>
-								Holisticly productize bleeding edge deliverables an
-								performance and based potentialities. Conveniently
-								harness functionalities before sufe functionalized
-								Conveniently harness functionalities before without an
-								functionalized Conveniently impact interdependent
-								metrics manage holistic events in out country.
+							"We've been working with seospeaks for several months now, and I can't express enough how impressed we are with the results they've delivered through their SEO services. From the very beginning, their team demonstrated a deep understanding of our industry and our target audience's needs.
 							</p>
 							<div class="testimonial-content">
 								<div class="test-image">
-									<img src="assets/images/testimonial/01.png" alt="client" />
+									<img src="../assets/images/testimonial/01.png" alt="client" />
 								</div>
 								<div class="testimonial-author">
-									<h6>Somrat islam</h6>
-									<p>ui/ux designer</p>
+									<h6>Ojas Wadake</h6>
+									<p> <a target="_blank" href="https://www.niravbiosolutions.com">Nirav Biosolution</a></p>
 								</div>
-								<img src="assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
+								<img src="../assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
 							</div>
 						</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="testimonial-item">
 							<p>
-								Holisticly productize bleeding edge deliverables an
-								performance and based potentialities. Conveniently
-								harness functionalities before sufe functionalized
-								Conveniently harness functionalities before without an
-								functionalized Conveniently impact interdependent
-								metrics manage holistic events in out country.
+							"Our collaboration with seopseaks for our SEO needs has been incredibly rewarding. From the outset, it was evident that their team was dedicated to understanding our unique business challenges and goals.
 							</p>
 							<div class="testimonial-content">
 								<div class="test-image">
-									<img src="assets/images/testimonial/02.png" alt="client" />
+									<img src="../assets/images/testimonial/02.png" alt="client" />
 								</div>
 								<div class="testimonial-author">
-									<h6>Robot smith</h6>
-									<p>ui/ux designer</p>
+									<h6>Akriti Bhatt </h6>
+									<p><a target="_blank" href="https://aquachill.co.in/">Aquachill</a></p>
 								</div>
-								<img src="assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
+								<img src="../assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
 							</div>
 						</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="testimonial-item">
 							<p>
-								Holisticly productize bleeding edge deliverables an
-								performance and based potentialities. Conveniently
-								harness functionalities before sufe functionalized
-								Conveniently harness functionalities before without an
-								functionalized Conveniently impact interdependent
-								metrics manage holistic events in out country.
+							"Our experience working with seospeaks for our SEO needs has been nothing short of exceptional. From the initial consultation to the ongoing optimization efforts, their team has demonstrated professionalism, expertise, and a genuine commitment to our success.
 							</p>
 							<div class="testimonial-content">
 								<div class="test-image">
-									<img src="assets/images/testimonial/01.png" alt="client" />
+									<img src="../assets/images/testimonial/01.png" alt="client" />
 								</div>
 								<div class="testimonial-author">
-									<h6>Somrat islam</h6>
-									<p>ui/ux designer</p>
+									<h6>Rajesh Gugle</h6>
+									<p><a target="_blank" href="https://jairajgroup.in/">Jairaj Group</a></p>
 								</div>
-								<img src="assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<p>
-								Holisticly productize bleeding edge deliverables an
-								performance and based potentialities. Conveniently
-								harness functionalities before sufe functionalized
-								Conveniently harness functionalities before without an
-								functionalized Conveniently impact interdependent
-								metrics manage holistic events in out country.
-							</p>
-							<div class="testimonial-content">
-								<div class="test-image">
-									<img src="assets/images/testimonial/02.png" alt="client" />
-								</div>
-								<div class="testimonial-author">
-									<h6>Robot smith</h6>
-									<p>ui/ux designer</p>
-								</div>
-								<img src="assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
+								<img src="../assets/images/testimonial/test_icon.png" alt="icon" class="test-icon" />
 							</div>
 						</div>
 					</div>
@@ -563,31 +526,37 @@ Our dedication to delivering exceptional results and ensuring customer happiness
 		</div>
 		<div class="client-items">
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/01.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/01.webp" alt="client" /></a>
 			</div>
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/02.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/02.webp" alt="client" /></a>
 			</div>
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/03.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/03.webp" alt="client" /></a>
 			</div>
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/04.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/04.webp" alt="client" /></a>
 			</div>
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/05.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/05.webp" alt="client" /></a>
 			</div>
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/06.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/06.webp" alt="client" /></a>
 			</div>
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/07.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/07.webp" alt="client" /></a>
 			</div>
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/08.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/08.webp" alt="client" /></a>
 			</div>
 			<div class="client-item">
-				<a href="#"><img src="assets/images/client/09.png" alt="client" /></a>
+				<a href="#"><img src="assets/images/client/09.webp" alt="client" /></a>
+			</div>
+			<div class="client-item">
+				<a href="#"><img src="assets/images/client/10.webp" alt="client" /></a>
+			</div>
+			<div class="client-item">
+				<a href="#"><img src="assets/images/client/11.webp" alt="client" /></a>
 			</div>
 		</div>
 	</div>

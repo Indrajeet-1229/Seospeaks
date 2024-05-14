@@ -40,28 +40,28 @@ include('../inc/header.php');
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/07.webp" alt="service icon">
-								<h6>Reputation Monitoring:</h6>
+								<img src="<?= $base_url; ?>assets/images/service/reputation-monitoring.webp" alt="service icon">
+								<h6>Reputation Monitoring</h6>
 								<p>Continuously monitoring online mentions, reviews, comments, and discussions about the individual, brand, or organization across various online platforms, including social media, review sites, forums, news articles, and blogs.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/08.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/review-management.webp" alt="service icon">
 								<h6>Review Management</h6>
 								<p>Managing online reviews on platforms such as Google My Business, Yelp, TripAdvisor, and industry-specific review sites. This includes responding to reviews, addressing customer feedback, and resolving issues in a timely and professional manner.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/09.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/social-media-management.webp" alt="service icon">
 								<h6>Social Media Management</h6>
 								<p>Monitoring and managing social media channels to maintain a positive brand image and engage with followers. This involves responding to comments and messages, sharing relevant content, and addressing any negative feedback or complaints.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="sr-feature">
-								<img src="<?= $base_url; ?>assets/images/service/10.webp" alt="service icon">
+								<img src="<?= $base_url; ?>assets/images/service/content-creation.webp" alt="service icon">
 								<h6>Content Creation and Promotion</h6>
 								<p>Creating and promoting positive content such as blog posts, articles, press releases, testimonials, case studies, and videos to enhance the online reputation and counteract any negative or misleading information.</p>
 							</div>

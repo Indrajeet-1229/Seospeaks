@@ -215,11 +215,11 @@ $base_url = 'http://localhost/Seospeaks/';
 										<a href="<?= $base_url; ?>/index.php">Home</a>
 
 									</li>
-									<li class="has-mega-menu">
+									<li class="has-sub-menu">
 										<a href="<?= $base_url; ?>/services.php">Services</a>
 										<div class="sub-menu">
 											<div class="mega-menu">
-												<ul>
+												<ul >
 													<li>
 														<a href="<?= $base_url; ?>digital-marketing/digital-marketing-company-pune-india.php"><i class="fa fa-check" aria-hidden="true"></i>
 															Digital marketing</a>
