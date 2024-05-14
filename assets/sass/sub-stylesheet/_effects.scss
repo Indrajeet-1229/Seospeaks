@@ -1,0 +1,93 @@
+.about-item, .team-item, .studies-item, .testimonial-item, .product-item, .pro-item, .post-item, .service-item{
+	position: relative;
+	&:before{
+		pointer-events: none;
+	    position: absolute;
+	    content: '';
+	    height: 0;
+	    width: 0;
+	    bottom: -1px;
+	    right: -1px;
+	    background: white;
+	    background: linear-gradient(315deg, $white 50%, #f1f3f2 50%);
+	    transition: $transition;
+	}
+	&:hover{
+		&:before{
+			height: 40px;
+			width: 40px;
+		}
+	}
+}
+
+.section-bg-clr{
+	.about-item, .team-item, .studies-item, .testimonial-item, .product-item, .pro-item, .post-item, .service-item{
+		&:before{
+		    background: linear-gradient(315deg, $section-bg-color 50%, #f1f3f2 50%);
+		}
+	}
+}
+
+
+
+.price-item{
+	position: relative;
+	&:before{
+		pointer-events: none;
+	    position: absolute;
+	    content: '';
+	    height: 0;
+	    width: 0;
+	    bottom: 0;
+	    right: 0;
+	    background: white;
+	    background: linear-gradient(315deg, #85c443 50%, #f1f3f2 50%);
+	    transition: $transition;
+	}
+	&:hover{
+		&:before{
+			height: 40px;
+			width: 40px;
+		}
+	}
+}
+.pricing-plan-section-three, .pricing-page{
+	.price-item{
+		&:before{
+		    display: none;
+		}
+	}
+}
+
+
+.rtl{
+	.about-item, .team-item, .studies-item, .testimonial-item, .product-item, .pro-item, .post-item, .service-item{
+		&:before{
+		    bottom: -1px;
+		    right: auto;
+		    left: -1px;
+		    background: linear-gradient(-315deg, $white 50%, #f1f3f2 50%);
+		}
+	}
+	.section-bg-clr{
+		.about-item, .team-item, .studies-item, .testimonial-item, .product-item, .pro-item, .post-item, .service-item{
+			&:before{
+			    background: linear-gradient(-315deg, $section-bg-color 50%, #f1f3f2 50%);
+			}
+		}
+	}
+	.price-item{
+		&:before{
+		    right: auto;
+		    left: 0;
+		    background: linear-gradient(-315deg, #85c443 50%, #f1f3f2 50%);
+		}
+	}
+	.pricing-plan-section-three, .pricing-page{
+		.price-item{
+			&:before{
+			    display: none;
+			}
+		}
+	}
+}

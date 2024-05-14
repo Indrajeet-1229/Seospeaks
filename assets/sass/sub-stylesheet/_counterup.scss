@@ -1,0 +1,32 @@
+//counterup section
+.counterup-section{
+	.overlay {
+		background-color: rgba($bg-clr3, 0.95);
+	}
+	.counterup-item{
+		text-align:center;
+		@include breakpoint(tablet){
+			margin-bottom: 60px;
+		}
+		.counterup-thumb{
+			margin-bottom: 30px;
+		}
+		.counterup-content{
+			h2{
+				color:$white;
+				margin-bottom: 10px;
+			}
+			p{
+				color:$white;
+				font-size:$font-size-large;
+				text-transform:uppercase;
+				margin: 0px;
+			}
+		}
+	}
+	.section-padding1 {
+		@include breakpoint(tablet){
+			padding-bottom: 40px;
+		}
+	}
+}

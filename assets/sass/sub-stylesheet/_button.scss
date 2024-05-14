@@ -1,0 +1,29 @@
+.button, button{
+	background-color: $white;
+	display: inline-block;
+	padding: 10px 25px;
+	border: 2px solid $base-color;
+	color: $heading-color;
+	font-weight: 500;
+	@include transition($transition);
+	text-transform:uppercase;
+	&:hover{
+		background-color: $base-color;
+		color: $white;
+	}
+}
+.button-lg {
+	padding: 13px 30px;
+	font-weight: 600;
+}
+.button-sm {
+	padding: 8px 30px;
+	@include transition($transition);
+	&:hover{
+		background-color: $base-color;
+		color: $white;
+	}
+}
+.button-height{
+	margin-top:40px;
+}

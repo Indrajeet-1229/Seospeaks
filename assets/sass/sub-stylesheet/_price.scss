@@ -1,0 +1,273 @@
+//Price section
+
+.pricing-plan-section {
+	.overlay {
+		background-color: rgba($bg-clr2, 0.95);
+	}
+	.price-item{
+		background-color:$white;
+		margin-bottom:30px;
+		overflow:hidden;
+		background-color:$section-bg-color;
+		@include breakpoint(desktop){
+			text-align: left;
+		}
+		@include breakpoint(tablet){
+			text-align: left;
+		}
+		@include breakpoint(sm-mobile){
+			text-align: left;
+		}
+		.price-head{
+			text-align: center;
+			width: 45%;
+			float: left;
+			padding: 34px 20px;
+			@include breakpoint(desktop){
+				width: 100%;
+				float: none;
+			}
+			@include breakpoint(tablet){
+				width: 45%;
+				float: left;
+			}
+			@include breakpoint(sm-mobile){
+				width: 100%;
+				float: none;
+			}
+			h4{
+				text-transform: uppercase;
+				color:$heading-color;
+				font-weight: 700;
+				margin-top:28px;
+				margin-bottom:8px;
+			}
+			span{
+				color:$base-color;
+				font-size: 24px;
+				font-weight: 600;
+			}
+		}
+		.price-content{
+			background-color:$white;
+			width: 55%;
+			float: right;
+			padding: 30px;
+			@include breakpoint(desktop){
+				float: none;
+				width: 100%;
+			}
+			@include breakpoint(tablet){
+				float: right;
+				width: 55%;
+			}
+			@include breakpoint(sm-mobile){
+				float: none;
+				width: 100%;
+			}
+			ul {
+				margin-bottom: 25px;
+				li{
+					font-size: 14px;
+					line-height: 30px;
+					i{
+						color: $base-color;
+						margin-right: 10px;
+						font-size: 14px;
+						line-height: 30px;
+					}
+				}
+			}
+			a{
+				text-transform:uppercase;
+				font-weight: 600;
+			}
+
+		}
+	}
+}
+
+.pricing-plan-section-two{
+	.overlay {
+		background-color: rgba($bg-clr2, 0.9);
+	}
+	.price-item{
+		text-align: center;
+		background-color: $white;
+		@include breakpoint(tablet){
+			margin-bottom: 30px;
+		}
+		.price-head{
+			padding: 37px 20px;
+			background-color: $section-bg-color;
+			h4{
+				text-transform: uppercase;
+				color:$heading-color;
+				font-weight: 700;
+				margin-top:30px;
+			}
+			span{
+				color:$base-color;
+				font-size: 24px;
+				font-weight: 600;
+			}
+
+		}
+		.price-content{
+			ul {
+				margin:0px;
+				padding:0px;
+				text-align:center;
+				li{
+					font-size: 14px;
+					line-height: 48px;
+					&:nth-child(even){
+						background-color: $section-bg-color;
+					}
+				}
+			}
+			.price{
+				color:$base-color;
+				font-size: 24px;
+				font-weight: 600;
+				margin: 30px;
+			}
+			a{
+				font-weight: 600;
+				margin-bottom: 40px;
+			}
+		}
+	}
+}
+
+.pricing-plan-section-three{
+	.pricing-plans{
+		@include breakpoint(desktop){
+			overflow-x: auto;
+			.pricing-plans-inner{
+				min-width: 1080px;
+			}
+		}
+	}
+	.pricing-features{
+		width: 30%;
+		float: left;
+		background-color: $section-bg-color;
+		padding-bottom: 70px;
+		margin-top: 140px;
+		border-left: 1px solid $section-bg-color;
+		h5{
+			text-transform: uppercase;
+			padding: 24px 20px;
+		}
+		ul{
+			li{
+				padding: 11px 20px;
+				&:nth-child(odd){
+					background-color: $white;
+				}
+				span{
+					font-size: 14px;
+					line-height: 24px;
+					font-weight: 600;
+				}
+				p{
+					font-size: 12px;
+					line-height: 24px;
+					margin: 0px;
+				}
+			}
+		}
+	}
+	.pr-plans{
+		width: 70%;
+		float: left;
+	}
+	.price-item{
+		width: calc(100% / 3);
+		text-align: center;
+		float: left;
+		background-color: $section-bg-color;
+		transition: $transition;
+		&:last-child{
+			border-right: 1px solid $section-bg-color;
+		}
+		.price-head{
+			padding: 35px 20px 30px;
+			h5{
+				text-transform: uppercase;
+				color:$heading-color;
+				font-weight: 700;
+				margin-top:23px;
+				transition: $transition;
+			}
+			span{
+				color:$base-color;
+				font-size: 24px;
+				font-weight: 600;
+			}
+
+		}
+		.price-content{
+			ul{
+				li{
+					font-size: 18px;
+					padding: 26px 15px;
+					&:nth-child(odd){
+						background-color: $white;
+					}
+					.true{
+						display: block;
+						color: $green;
+					}
+					.false{
+						display: none;
+						color: $base-color;
+					}
+				}
+				li.off{
+					.true{
+						display: none;
+					}
+					.false{
+						display: block;
+					}
+				}
+			}
+		}
+		.price{
+			color:$base-color;
+			font-size: 24px;
+			font-weight: 600;
+			margin: 30px 15px 20px;;
+		}
+		a{
+			font-weight: 600;
+			margin-bottom: 40px;
+			padding: 8px 20px;
+			border-radius: 2px;
+		}
+		&:nth-child(2){
+			.price-head{
+				padding: 20px 20px 30px;
+			}
+		}
+		&:hover{
+			position: relative;
+			@include box-shadow(0px 0px 20px 0px rgba(0,0,0,0.3));
+			z-index: 1;
+			h5{
+				color: $base-color;
+			}
+		}
+	}
+}
+
+.pricing-page{
+	.price-item{
+		@include transition($transition);
+		&:hover{
+			@include box-shadow(0px 0px 20px 0px rgba(0,0,0,0.3));
+		}
+	}
+}

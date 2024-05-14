@@ -1,0 +1,167 @@
+//blog section
+.blog-section{
+	.post-item{
+		background-color: $white;
+		border:1px solid $border-color;
+		padding:20px;
+		margin-bottom:30px;
+		@include breakpoint(tablet){
+			text-align: center;
+		}
+		.post-thumb img{
+			max-width:100%;
+		}
+		.post-content{
+			margin: 20px 10px 10px;
+			h5{
+				text-transform: uppercase;
+				margin-bottom: 10px;
+				font-weight: 600;
+			}
+			h6{
+				color: $base-color;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+				font-weight: 600;
+			}
+			img{
+				margin-bottom: 20px;
+			}
+			a{
+				border:none;
+				text-transform: uppercase;
+				color:$heading-color;
+				font-weight: 600;
+				transition: $transition;
+				&:hover{
+					color: $base-color;
+
+				}
+				i{
+					font-weight: 700;
+				}
+			}
+		}
+
+	}
+	.post-item-single{
+		margin: 0px;
+	}
+	.post-buttom{
+		border: 1px solid $border-color;
+		border-top: none;
+		overflow: hidden;
+		padding: 19px 30px;
+		margin-bottom: 60px;
+		.tags{
+			float: left;
+			@include breakpoint(sm-mobile){
+				float: none;
+				margin-bottom: 10px;
+			}
+			li{
+				text-transform: uppercase;
+				font-weight: 500;
+				color: $text-color;
+				display: inline-block;
+				a{
+					color: $text-color;
+					font-weight: 500;
+				}
+			}
+		}
+		.social{
+			float: right;
+			@include breakpoint(sm-mobile){
+				float: none;
+			}
+			li{
+				display: inline-block;
+				margin-left: 10px;
+				a{
+					font-size: 15px;
+					color: #888888;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+	.blog-button{
+		margin-top: 30px;
+		text-align: center;
+	}
+	.post-commnets{
+		margin-bottom: 60px;
+		h5{
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 20px;
+		}
+		.comment-items{
+			border: 1px solid $border-color;
+			ul{
+				li{
+					ul{
+						margin-left: 50px;
+						@include breakpoint(sm-mobile){
+							margin-left: 30px;
+						}
+					}
+					.comment-item{
+						padding: 30px;
+						border-bottom: 1px solid $border-color;
+						@include breakpoint(sm-mobile){
+							padding: 15px;
+						}
+						.image{
+							height: 70px;
+							width: 70px;
+							border-radius: 100%;
+							float: left;
+							margin-right: 20px;
+						}
+						.content{
+							display: table;
+							h6{
+								font-size: 16px;
+								text-transform: uppercase;
+								margin-bottom: 10px;
+								a{
+									float: right;
+									font-size: 14px;
+									font-weight: 500;
+									color: $heading-color;
+									text-decoration: underline;
+									i{
+										color: $base-color;
+									}
+								}
+							}
+							p{
+								margin: 0px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.add-comment{
+		@include breakpoint(tablet){
+			margin-bottom: 60px;
+		}
+		h5{
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+		form{
+			.com-input{
+				width: 100%;
+				background-color: $white;
+				border: 1px solid $border-color;
+				padding: 10px 15px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}

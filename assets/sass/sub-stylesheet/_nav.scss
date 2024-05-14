@@ -1,0 +1,42 @@
+// nav menu bar
+
+.nav-menu{
+	color:$white;
+	padding:20px 0px;
+	a{
+		float:left;
+	}
+	.menu-list{
+		float:right;
+			ul{
+				overflow: hidden;
+				display: inline-block;
+				li{
+					float:left;
+					margin-right: 40px;
+					a{
+						font-size:14px;
+						color:$heading-color;
+						text-transform:uppercase;
+						font-weight:600;
+						text-decoration: none;
+					}
+				}
+				.shop-cart{
+					float:left;
+				}
+				.side-toggle{
+					float:left;
+					margin-left: 20px;
+				}
+			}	
+		ul li:last-child{
+			margin-right:0px;
+		}
+		i{
+			color:$heading-color;
+			font-size:25px;
+
+		}
+	}
+}

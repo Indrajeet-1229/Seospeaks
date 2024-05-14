@@ -1,0 +1,138 @@
+.about-section{
+	.about-info{
+		@include breakpoint(tablet){
+			margin-bottom: 50px;
+			text-align: center;
+		}
+		span{
+			font-size:100px;
+			color: $base-color;
+			font-weight: 700;
+			line-height: 1;
+			margin-bottom: 25px;
+		}
+		h3{
+			color: $heading-color;
+			text-transform: capitalize;
+			line-height: 48px;
+		}
+		h2{
+			color: $heading-color;
+			text-transform: uppercase;
+			line-height: 48px;
+		}
+		a{
+			text-transform:uppercase;
+		}
+
+	}
+	.about-item{
+		padding:33px 20px;
+		background-color:$white;
+		margin-bottom:30px;
+		.about-thumb{
+			float:left;
+			margin-right: 20px;
+			margin-top: 5px;
+		}
+		.about-content{
+			display: table;
+			h5{
+				text-transform:uppercase;
+				margin-bottom: 10px;
+			}
+			p{
+				margin:0px;
+			}
+		}
+	}
+
+
+}
+.about-section-two{
+	.about-items{
+		overflow: hidden;
+		margin: -10px;
+		margin-bottom:50px;
+	}
+	.about-item-outer{
+		width: 25%;
+		padding: 10px;
+		float: left;
+		@include breakpoint(tablet){
+			width: 50%;
+		}
+		@include breakpoint(mobile){
+			width: 100%;
+		}
+	}
+	.about-item{
+		padding:30px 20px;
+		margin-bottom: 0px;
+		text-align:center;
+		border:1px solid $border-color2;
+		transition:$transition;
+		&:hover{
+			//@include box-shadow(0px 0px 20px 5px rgba(136,136,136,0.1));
+		}
+		&:hover .about-content h5 {
+			color:$base-color;
+		}
+		&:hover .about-content i {
+			color:$base-color;
+		}
+		.about-thumb{
+			float:none;
+			margin-right: 0px;
+		}
+		.about-content{
+			display: block;
+			margin-top:27px;
+			h5{
+				text-transform:uppercase;
+				transition:$transition;
+				margin-bottom: 10px;
+			}
+			i{
+				font-size:6px;
+				line-height:35px;
+				transition:$transition;
+			}
+			p{
+				margin:0px;
+			}
+		}
+	}
+	.about-button{
+		text-align: center;
+	}
+}
+.about-section-three{
+	.about-item{
+		text-align:center;
+		&:before{
+			display: none;
+		}
+		&:hover .about-content h6{
+			color:$base-color;
+		}
+		@include breakpoint(mobile){
+			margin-bottom: 50px;
+		}
+		.about-thumb{
+			margin-bottom: 30px;
+		}
+		.about-content{
+			display: block;
+			margin-top:27px;
+			h6{
+				transition:$transition;
+				margin-bottom: 15px;
+				text-transform: uppercase;
+			}
+			p{
+				margin:0px;
+			}
+		}
+	}
+}

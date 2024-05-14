@@ -1,0 +1,338 @@
+
+
+.rtl .col-md-1, .rtl .col-md-2, .rtl .col-md-3, .rtl .col-md-4, .rtl .col-md-5, .rtl .col-md-6, .rtl .col-md-7, .rtl .col-md-8, .rtl .col-md-9, .rtl .col-md-10, .rtl .col-md-11, .rtl .col-md-12,
+.rtl .col-sm-1, .rtl .col-sm-2, .rtl .col-sm-3, .rtl .col-sm-4, .rtl .col-sm-5, .rtl .col-sm-6, .rtl .col-sm-7, .rtl .col-sm-8, .rtl .col-sm-9, .rtl .col-sm-10, .rtl .col-sm-11, .rtl .col-sm-12,
+.rtl .col-xs-1, .rtl .col-xs-2, .rtl .col-xs-3, .rtl .col-xs-4, .rtl .col-xs-5, .rtl .col-xs-6, .rtl .col-xs-7, .rtl .col-xs-8, .rtl .col-xs-9, .rtl .col-xs-10, .rtl .col-xs-11, .rtl .col-xs-12{
+	float: right!important;
+}
+.rtl .header-top .header-top-left{
+	float: right;
+}
+.rtl .header-top .header-top-left ul li{
+	float: right;
+	margin-right: 0px;
+	margin-left: 22px;
+}
+.rtl .header-top .header-top-left ul li i{
+	margin-right: 0px;
+	margin-left: 12px;
+}
+.rtl .header-top .header-top-left ul li a, .rtl .header-top .header-top-left ul li p{
+	float: left;
+}
+.rtl .header-top .header-top-right{
+	float: left;
+}
+.rtl .header-top .header-top-right i{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl .header-top .header-top-right a{
+	float: left;
+}
+.rtl .main-menu .menu-list{
+	float: left;
+}
+.rtl .main-menu .menu-list > ul{
+	float: right;
+}
+.rtl .main-menu .menu-list .search-icon{
+	margin-left: 0px;
+	margin-right: 20px;
+}
+.rtl .main-menu .menu-list ul .sub-menu{
+	left: auto;
+	right: 0;
+}
+.rtl .main-menu .menu-list ul .sub-menu li .sub-menu{
+	left: auto;
+	right: 100%;
+}
+.rtl .menu-cart .shop-feature{
+	right: auto;
+	left: 0;
+}
+.rtl .menu-cart .shop-feature li .image{
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl .menu-cart .shop-feature li .content .remove{
+	right: auto;
+	left: 0;
+}
+.rtl .menu-cart .cart-total span{
+	float: left;
+}
+.rtl .main-menu .menu-list ul{
+	float: right;
+}
+.rtl .main-menu .menu-list ul .mega-menu .mg-image{
+	right: auto;
+	left: 0;
+}
+.rtl .main-menu .menu-list .menu-search-form form input{
+	float: right;
+}
+.rtl .main-menu .mobile-menu .menu-header .menu-logo{
+	float: right;
+}
+.rtl .main-menu .mobile-menu .menu-header .menu-icon{
+	float: left;
+}
+.rtl .main-menu .mobile-menu .mob-menu-content{
+	right: auto;
+	left: -100%;
+}
+.rtl .main-menu .mobile-menu .mob-menu-content.open{
+	right: auto;
+	left: 0;
+}
+.rtl .main-menu .mobile-menu .mob-menu-content .mob-menu-close{
+	left: auto;
+	right: 15px;
+}
+.rtl .main-menu .mobile-menu ul .sub-menu li a{
+	margin-left: 0px;
+	margin-right: 30px;
+}
+.rtl .service-section .service-list > div > div .service-item{
+	border-right: none;
+	border-left: 1px solid #f1f0f0;
+}
+.rtl .service-section .service-item .service-content ul li i{
+	margin-right: 0px;
+	margin-left: 12px;
+}
+.rtl .about-section .about-item .about-thumb{
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl .social-link-list li{
+	float: right;
+}
+.rtl .case-studies-section .studies-item{
+	text-align: right;
+}
+.rtl .case-studies-section .studies-item .studies-thumb .plus{
+	right: auto;
+	left: 20px;
+}
+.rtl .case-studies-section .studies-item:hover .plus{
+	right: auto;
+	left: 50%;
+	ms-transform: translateY(50%) translateX(-50%);
+    -webkit-transform: translateY(50%) translateX(-50%);
+    transform: translateY(50%) translateX(-50%);
+}
+.rtl .pricing-plan-section .price-item .price-head{
+	float: right;
+}
+.rtl .pricing-plan-section .price-item .price-content ul li i{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl .testimonial-item .testimonial-content .test-image{
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl .testimonial-item .testimonial-content .test-icon{
+	float: left;
+}
+.rtl .meta-post ul li{
+	float: right;
+	margin-right: 0px;
+	margin-left: 15px;
+}
+.rtl .newsletter-item .newsletter-thumb{
+	float: right;
+	margin-right: 0px;
+	margin-left: 80px;
+}
+.rtl .newsletter-item .newsletter-content{
+	text-align: right;
+}
+.rtl footer .widget-item .wg-contact ul li i{
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl footer .widget-item .wg-services li i, .rtl footer .widget-item .wg-studies li i{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl footer .widget-item .wg-posts li .wg-post-thumb{
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl footer .footer-bottom p{
+	float: right;
+}
+.rtl footer .footer-bottom ul{
+	float: left;
+}
+.rtl #lightcase-nav a[class*='lightcase-icon-'].lightcase-icon-close{
+	right: auto;
+	left: 15px;
+}
+.rtl .scroll-top{
+	right: auto;
+	left: 50px;
+}
+.rtl .service-section-three ul li i{
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl .pricing-plan-section-three .pricing-features{
+	float: right;
+}
+.rtl .pricing-plan-section-three .pr-plans{
+	float: left;
+}
+.rtl .pricing-plan-section-three .price-item{
+	float: right;
+}
+.rtl .sidebar .sidebar-item form button{
+	right: auto;
+	left: 40px;
+}
+.rtl .sidebar .sidebar-item .sb-categories li a span{
+	float: left;
+}
+.rtl .sidebar .sidebar-item .sb-posts li .image{
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl .blog-section .post-buttom .tags{
+	float: right;
+}
+.rtl .blog-section .post-buttom .social{
+	float: left;
+}
+.rtl .blog-section .post-buttom .social li{
+	margin-left: 0px;
+	margin-right: 10px;
+}
+.rtl .blog-section .post-commnets .comment-items ul li .comment-item .image{
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl .blog-section .post-commnets .comment-items ul li .comment-item .content h6 a{
+	float: left;
+}
+.rtl .cont-page-form i{
+	right: auto;
+	left: 30px;
+}
+.rtl .project-details .top ul li:first-child{
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl .service-sidebar .sr-sidebar-item .all-serivce li img{
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl .service-sidebar .sr-sidebar-item .sr-testimonial .testimonial-item .test-image{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl .team-details .team-content .team-address li span{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl .team-details .team-skills .skill-item{
+	margin-right: 0px;
+	margin-left: 44px;
+}
+.rtl .team-details .team-skills .skill-item:last-child{
+	margin-left: 0px;
+}
+.rtl .team-details .team-award li{
+	margin-right: 0px;
+	margin-left: 60px;
+}
+.rtl .team-details .team-award li:last-child{
+	margin: 0px;
+}
+.rtl .product .product-items .product-item-list .pro-rating{
+	right: auto;
+	left: 30px;
+}
+.rtl .product .product-header p{
+	float: right;
+}
+.rtl .product .product-header .icon{
+	float: left;
+}
+.rtl .product-sidebar .pro-categories .panel-title a span{
+	right: auto;
+	left: 0;
+}
+.rtl .product-sidebar .rel-product li .image{
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.rtl .cd-slider-wrapper{
+	float: right;
+}
+.rtl .product .product-items .cd-item-info{
+	text-align: right;
+}
+.rtl .product-sidebar form button{
+	right: auto;
+	left: 10px;
+}
+.rtl .pro-details .details .qnt a{
+	float: right;
+}
+.rtl .pro-details .details .qnt input{
+	float: right;
+}
+.rtl .pro-details .details select{
+	margin-right: 0px;
+	margin-left: 30px;
+}
+.rtl .pro-description .tab-content .pro-reviews .review-item .image{
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl .pro-description .tab-content .pro-reviews .review-item .content h6{
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl .pro-description .tab-content .pro-reviews .review-item .content span{
+	float: right;
+}
+.rtl .pro-description .tab-content .pro-reviews .review-item .content .pro-rating{
+	float: left;
+}
+.rtl .pro-description .tab-content .review-form .rf-icon{
+	right: auto;
+	left: 30px;
+}
+.rtl .shop-cart .cart-total p span{
+	float: left;
+}
+.rtl .shop-cart .shop-table table tr .product-thumbnail .image{
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl{}
+.rtl{}
+.rtl{}
+.rtl{}
+.rtl{}
+.rtl{}
+.rtl{}
+.rtl{}
+.rtl{}

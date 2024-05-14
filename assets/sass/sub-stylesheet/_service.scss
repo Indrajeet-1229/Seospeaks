@@ -1,0 +1,244 @@
+// service section
+
+.service-section{
+	.service-list{
+		background-color: $white;
+		padding: 40px;
+		@include transform(translate(0px, -50px));
+		> div > div{
+			.service-item{
+				border-right: 1px solid $border-color;
+				@include breakpoint(mobile){
+					border: none;
+					text-align: center;
+				}
+			}
+			
+			&:last-child{
+				.service-item{
+					border: none
+				}
+			}
+		}
+	}
+	.service-item{
+		margin-bottom: 70px;
+		@include breakpoint(tablet){
+			// text-align: center;
+		}
+		.service-thumb{
+			margin-bottom: 40px;
+		}
+		.service-content{
+			h5{
+				text-transform:uppercase;
+				margin-bottom: 20px;
+			}
+			ul {
+				margin:0;
+				padding:0;
+				li{
+					margin:6px 0px;
+
+					i{
+						color: $base-color;
+						margin-right:12px;
+					}
+					p{
+						display:inline-block;
+						text-transform: capitalize;
+						margin:0;
+					}
+				}
+				li:first-child{
+					margin-top:0px;
+				}
+				li:last-child{
+					margin-bottom:0px;
+				}
+			}
+			a{
+				margin-top:30px;
+			}
+		}
+	}
+	.service-button{
+		text-align: center;
+	}
+}
+
+.service-section-two{
+
+	.service-item{
+		padding:35px 40px;
+		margin-bottom:30px;
+		background-color:$white;
+		border: 1px solid $border-color;
+		@include breakpoint(mini-mobile){
+			//text-align: center;
+		}
+		.service-thumb{
+			float:left;
+			margin-right:30px;
+			margin-bottom: 0px;
+			@include breakpoint(mini-mobile){
+				float: none;
+				margin-right: 0px;
+				margin-bottom: 20px;
+			}
+		}
+		.service-content{
+			display:table;
+		}
+	}
+	.service-button{
+		margin-top: 30px;
+	}
+}
+
+.service-section-three{
+	h2{
+		margin-bottom: 10px;
+	}
+	p{
+		line-height: 30px;
+	}
+	ul{
+		overflow: hidden;
+		margin-bottom: 20px;
+		li{
+			margin-bottom: 20px;
+			i{
+				display: inline-block;
+				float: left;
+				font-size: 18px;
+				margin-top: 5px;
+				color: $base-color;
+				margin-right: 10px;
+			}
+			p{
+				display: table;
+				font-size: 14px;
+				line-height: 24px;
+				margin: 0px;
+			}
+		}
+	}
+}
+.service-single-section{
+	padding-top: 120px;
+}
+.service-sidebar{
+	.sr-sidebar-item{
+		margin-bottom: 30px;
+		h5{
+			color: $white;
+			background-color: #232323;
+			padding: 19px 30px;
+			text-transform: uppercase;
+		}
+		.all-serivce{
+			border-left: 1px solid $border-color;
+			border-right: 1px solid $border-color;
+			li{
+				border-bottom: 1px solid $border-color;
+				img{
+					margin-right: 20px;
+				}
+				a{
+					display: block;
+					font-size: 16px;
+					text-transform: uppercase;
+					color: $heading-color;
+					transition: $transition;
+					padding: 10px 30px;
+					background-color: $bg-color;
+					&:hover, &:focus{
+						color: $base-color;
+						background-color: $white;
+					}
+				}
+			}
+		}
+		.sr-form{
+			border: 1px solid $border-color;
+			background-color: $bg-color;
+			padding: 30px;
+			.sr-input{
+				background-color: $white;
+				color: $text-color;
+				margin-bottom: 10px;
+				padding: 14px 20px;
+				border: 1px solid $border-color;
+			}
+			.sr-button{
+				padding: 15px 36px;
+				margin-top: 10px;
+			}
+		}
+		.sr-testimonial{
+			background-color: $bg-color;
+			padding: 30px 30px 60px;
+			position: relative;
+			.testimonial-item{
+				padding: 30px;
+				.test-image{
+					height: 50px;
+					width: 50px;
+					margin-right: 10px;
+				}
+				.testimonial-author{
+					margin-top: 10px;
+					h6{
+						font-size: 16px;
+					}
+					p{
+						font-size: 12px;
+					}
+				}
+				> img{
+					width: 36px;
+				}
+			}
+			.swiper-pagination{
+				bottom: 20px;
+				left: 40%;
+				.swiper-pagination-bullet{
+					height: 10px;
+					width: 10px;
+					margin: 0px 3px;
+				}
+				.swiper-pagination-bullet-active{
+					background-color: $base-color;
+				}
+			}
+		}
+	}
+}
+
+.service-single-item{
+	img{
+		margin-bottom: 40px;
+	}
+	h4{
+		text-transform: uppercase;
+		color: $base-color;
+		margin-bottom: 20px;
+	}
+	.sr-feature{
+		border: 1px solid $border-color;
+		padding: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+		img{
+			margin-bottom: 20px;
+		}
+		h6{
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+		p{
+			margin: 0px;
+		}
+	}
+}

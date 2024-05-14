@@ -1,0 +1,75 @@
+$bootstrap-sass-asset-helper: false !default;
+//
+// Variables
+// --------------------------------------------------
+
+
+//== Colors
+$base-color: #f99f1c;
+
+$white: #fff;
+
+$black: #212221;
+
+$green: #00b26d;
+
+$heading-color: #282828;
+$text-color: #696969;
+$text-color2: #888888;
+$text-color3: #b2b2b2;
+$text-color4: #bababa;
+
+$descr-color: #696969;
+
+$separator-color: #e4e4e4;
+
+$section-bg-color: #fafafa;
+$bg-color: #fafafa;
+
+$border-color: #f1f0f0;
+$border-color2: #ebebeb;
+$border-color3: #2a2a2a;
+$social-link-color: #c6c5c5;
+$meta-descr: #888888;
+
+$bg-clr1: #24ae5f;
+$bg-clr2: #85c443;
+$bg-clr3: #9051a0;
+$bg-clr4: #3b97d3;
+$bg-clr5: #b6cb34;
+$bg-clr6: #25bfcf;
+$bg-clr7: #ff7058;
+
+
+
+//== Typography
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
+$font-family-sans-serif:  'Poppins', sans-serif;
+$font-size-base:          14px !default;
+
+$font-size-large:         ceil(($font-size-base * 1.14)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.88)) !default; // ~14px
+
+$font-size-h1:            floor(($font-size-base * 3.48)) !default; // ~48px
+$font-size-h2:            floor(($font-size-base * 2.60)) !default; // ~36px
+$font-size-h3:            ceil(($font-size-base * 2.14)) !default; // ~30px
+$font-size-h4:            ceil(($font-size-base * 1.71)) !default; // ~24px
+$font-size-h5:            ceil(($font-size-base * 1.42)) !default; // ~20px
+$font-size-h6:            ceil(($font-size-base * 1.28)) !default; // ~18px
+
+
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.71 !default; // 24/14
+
+
+
+// border-radius
+$border-radius-base:        2px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+
+
+//  transition
+$transition: all 0.3s ease-in-out;

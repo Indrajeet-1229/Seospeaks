@@ -1,0 +1,22 @@
+.error-page{
+	background: url(../images/error-bg.jpg);
+	background-width: cover;
+	background-position: center;
+	.error-content{
+		text-align: center;
+		img{
+			margin-bottom: 60px;
+		}
+		h2{
+			text-transform: uppercase;
+			margin-bottom: 15px;
+			color: #222a4e;
+			@include breakpoint(mini-mobile){
+				font-size: 26px;
+			}
+		}
+		a{
+			padding: 13px 40px;
+		}
+	}
+}

@@ -1,0 +1,123 @@
+
+.portfolio {
+    .portfolio-button{
+        text-align: center;
+        margin-top: 60px;
+        .button{
+            font-weight: 600;
+        }
+    }
+    .portfolio_menu{
+        text-align: center;
+        margin-bottom: 40px;
+        li{
+            list-style: none;
+            display: inline-block;
+            margin: 0px 5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            border: 1px solid $border-color;
+            padding: 7px 24px;
+            @include transition($transition);
+            @include breakpoint(tablet){
+                margin-bottom: 10px;
+            }
+            &:hover, &:focus{
+                background-color: $base-color;
+                border: 1px solid $base-color;
+                color: $white;
+            }
+        }
+        .active{
+            background-color: $base-color;
+            border: 1px solid $base-color;
+            color: $white;
+        }
+    }
+    .pos_rel{
+        position: relative;
+    }
+    .portfolio_item{
+        width: 32.48%;
+        margin-bottom: 15px;
+        text-align: center;
+        overflow: hidden;
+        @include breakpoint(desktop){
+            width: 32%;
+        }
+        @include breakpoint(tablet){
+            width: 31.9%;
+        }
+        @include breakpoint(mobile){
+            width: 48%;
+        }
+        @include breakpoint(mini-mobile){
+            width: 100%;
+        }
+        img{
+            @include transition(.5s);
+        }
+        .port-overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            @include transition(.5s);
+            .overlay-inner{
+                height: 100%;
+                width: 100%;
+                background-color: rgba($base-color,.94);
+                @include transition(.5s);
+            }
+        }
+        .port_caption{
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            left: 0;
+            @include transform(translateY(-50%));
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            a{
+                display: inline-block;
+                @include transition(.5s);
+                @include transform(scale(0.0));
+                opacity: 0;
+            }
+        }
+        &:hover{
+            .port-overlay{
+                padding: 10px;
+                opacity: 1;
+            }
+            a{
+                @include transform(scale(1));
+                opacity: 1;
+            }
+        }
+    }
+    .portfolio_items-two{
+        .portfolio_item{
+            width: 31.6%;
+            margin-bottom: 30px;
+            @include breakpoint(desktop){
+                width: 31.2%;
+            }
+            @include breakpoint(tablet){
+                width: 30.5%;
+            }
+            @include breakpoint(mobile){
+                width: 47%;
+            }
+            @include breakpoint(mini-mobile){
+                width: 100%;
+            }
+            img{
+                @include transition(.5s);
+            }
+        }
+    }
+}
+
